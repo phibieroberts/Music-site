@@ -23,6 +23,9 @@ padding:20px 10%;
 background-color: #191B27;
 }
 
+.menu-bar{
+    color:white;
+}
  .mobile-navbar{
       display:none;
   }
@@ -324,52 +327,67 @@ border-bottom: 2px solid grey;
         width:100%;
   
     }
+
+    .navbar{
+        display:flex;
+        justify-content:space-between;
+    }
     .mobile-navbar{
         display:flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding:0;
-        margin:0;
         text-align:center;
         width:100%;
         height:100%;
-        margin-top:18em;
         background-color:rgba(0,0,0,.8);
         position:fixed;
-        
-
-        
-
+        font-weight:bold;
     }
-    .nav-links li{
+
+    .close-bar{
+        position: absolute;
+        
+        color:white;
+    }
+
+    .show{
+        transform:translateY(-20px);
+        transition: transform 0.5s ease-in-out;
+    }
+
+.mobile-navbar img{
+    width: 100%;
+}
+
+.nav-links li{
         display:flex;
-     flex-direction:column;   
+     flex-direction:column;  
+     padding:10px; 
     }
-    .navbar{
+
+ .navbar .nav-links li{
         display:none;
     }
 
-
-
-
-    #explore{
+ #explore{
      flex-direction: column; 
     }
 
-    #explore img{
+ #explore img{
         width: 100%;
         max-height:30vh;
         padding-top:20px;
     }
 
-    #explore p{
+#explore p{
     line-height: 1.6;
     font-size:16px;
     font-weight:normal;
     }
 
-    #explore button{
+#explore button{
         margin:auto;
     }
     
