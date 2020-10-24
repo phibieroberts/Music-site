@@ -15,7 +15,7 @@
       list-style-type:none;
     }
 
-  header{
+  .navbar{
 display:flex;
 justify-content: space-between;
 align-items: center;
