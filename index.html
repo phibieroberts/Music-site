@@ -1,176 +1,198 @@
 <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-</head>
-  
-<body>
-<header>
-    <div class="navbar">
-      <div><img src="img/Hello.png" alt="logo" class="logo"></div>  
-      <div class="menu-bar" id="menu-bar">
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <h1>MUSIC-GO</h1>
+        </div>
+        <div class="menu-bar" id="menu-bar">
           <i class="fas fa-bars fa-2x"></i>
+        </div>
+        <div>
+          <nav>
+            <ul class="nav-links">
+              <li><a href="#" id="active">Home</a></li>
+              <li><a href="#explore">Tour</a></li>
+              <li><a href="#Blog-posts">Latest Release</a></li>
+              <li><a href="#top-artist">Artist</a></li>
+              <li><a href="#new-release">album</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#">Login</a></li>
+            <li>
+              <a href="#"><button class="signup-btn">Sign Up</button></a>
+            </li>
+          </ul>
+        </div>
       </div>
-    <div>
-    <nav>
-        <ul class="nav-links">
-            <li><a href="#" id="active">Home</a></li>
-              <li><a href="#">Tour</a></li>
-              <li><a href="#">Latest Release</a></li>
-              <li><a href="#">Artist</a></li>
-              <li><a href="#">album</a></li>
-        </ul>
-    </nav>
-    </div>
-    <div>
-    <ul class="nav-links">
-        <li><a href="#">Login</a></li>
-<li><a href="#"><button class="signup-btn">Sign Up</button></a></li>
-</ul>
-</div>
-    </div>
-<div class="mobile-navbar">
-    <div class="close-bar">
-        <i class="fas fa-close fa-2x"></i>
-    </div>
-    <div class="brand"><img src="img/Hello.png" alt="logo" class="logo"></div>
-<div>
-<nav>
-    <ul class="nav-links">
-        <li><a href="#" id="active">Home</a></li>
-          <li><a href="#"  >Tour</a></li>
-          <li><a href="#" >Latest Release</a></li>
-          <li><a href="#" >Artist</a></li>
-          <li><a href="#">album</a></li>
-          <li><a href="#">Login</a></li>
-          <li><a href="#"><button class="signup-btn">Sign Up</button></a></li>
-    </ul>
-</nav>
-</div>
-</div>
-</header>
+      <!-- responsive navbar -->
+      <div class="mobile-navbar">
+        <div class="close-bar">
+          <i class="fas fa-times fa-2x"></i>
+        </div>
+        <div class="brand">
+          <h1 class="logo">MUSIC-GO</h1>
+        </div>
+        <div class="menu">
+          <nav>
+            <ul class="nav-links">
+              <li><a href="#" id="active">Home</a></li>
+              <li><a href="#explore">Tour</a></li>
+              <li><a href="#Blog-posts">Latest Release</a></li>
+              <li><a href="#top-artist">Artist</a></li>
+              <li><a href="#new-release">album</a></li>
+            </ul>
+            <div class="nav-actions">
+              <li><a href="#">Login</a></li>
+              <li>
+                <a href="#"><button class="signup-btn">Sign Up</button></a>
+              </li>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
 
-<main>
-    <div class="main">
+    <main>
+      <div class="main">
         <h1>Welcome to MUSIC - GO</h1>
-        <p>Get the latest music we’ve released and enjoy<br>
-        every moment of it without pausing.</p>
-        <button class="btn">Get Started</button>
-    </div>
-    
-</main>
-<section id="top-artist">
-    <h2>Music From our Top Artists</h2>
-    <p>Listen to your favourite artistes and enjoy moments with them</p>
-
-<div class="artists">
-    <div class="brenda">
-        <img src="img/media1.png" width="350px">
-        <h3>Brenda Gret</h3>
-        <p>Let Love Lead</p>
-        <button>See More</button>
+        <p class="intro">
+          Get the latest music we’ve released and enjoy every moment of it
+          without pausing.
+        </p>
+        <button class="btn" data-aos="fade-left">Get Started</button>
+      </div>
+    </main>
+    <section id="top-artist">
+      <h2>Music From our Top Artists</h2>
+      <p>Listen to your favourite artistes and enjoy moments with them</p>
+      <div class="artists">
+        <div class="artist" data-aos="fade-left">
+          <img src="img/media1.png" />
+          <div class="inner">
+            <div class="left">
+              <h3 class="artist-name">Brenda Gret</h3>
+              <p class="album-name">Let Love Lead</p>
+            </div>
+            <button class="see-more">See More</button>
+          </div>
         </div>
-        <div class="micarette">
-            <img src="img/Media.png">
-            <h3> Micarette Groe</h3>
-            <p>Home Coming</p>
-            <button>See More</button>
-
+        <div class="artist" data-aos="fade-left">
+          <img src="img/Media.png" />
+          <div class="inner">
+            <div class="left">
+              <h3 class="artist-name">Micarette Groe</h3>
+              <p class="album-name">Home Coming</p>
+            </div>
+            <button class="see-more">See More</button>
+          </div>
         </div>
-        <div class="micarette2">
-            <img src="img/media2.png">
-            <h3> Micarette Groe</h3>
-            <p>Home Coming</p>
-            <button>See More</button>
-
+        <div class="artist" data-aos="fade-left">
+          <img src="img/media2.png" />
+          <div class="inner">
+            <div class="left">
+              <h3 class="artist-name">Micarette Groe</h3>
+              <p class="album-name">Home Coming</p>
+            </div>
+            <button class="see-more">See More</button>
+          </div>
         </div>
-        
-</div>   
-</section>
-<section id="explore">
-    <div>
-    <h2>Explore Our Upcoming</p><p>Events</h2>
-    <p>Music Go has got you covered for all your
-        musical events and also to give you a smooth
-        sail along the music ride. Enjoy music with us,
-        feel the music and flow with the beats. We are
-        here for you!</p>
-        <button>See Upcoming Events</button>
-    </div>
-            <img src="img/Rectangle 59.png" alt="">
-</section>
-<section id="new-release"  >
-    <h3>New Releases For You</h3>
-    <div class="new-release">
-    <div>
-        <img src="img/Rectangle 30.png">
-        <h3>Look Up Child</h3>
-        <p>By Lauren Diagle</p>
+      </div>
+    </section>
+
+    <section id="explore" data-aos="ease-in">
+      <div>
+        <h2 class="explore-intro">Explore Our Upcoming Events</h2>
+        <p class="explore-intro-text">
+          Music Go has got you covered for all your musical events and also to
+          give you a smooth sail along the music ride. Enjoy music with us, feel
+          the music and flow with the beats. We are here for you!
+        </p>
+        <button class="upcoming-events">See Upcoming Events</button>
+      </div>
+      <img src="img/Rectangle 59.png" alt="" />
+    </section>
+    <section id="new-release">
+      <h3>New Releases For You</h3>
+      <div class="new-release">
+        <div>
+          <img src="img/Rectangle 30.png" />
+          <h3>Look Up Child</h3>
+          <p>By Lauren Diagle</p>
         </div>
         <div>
-            <img src="img/Rectangle 33.png">
-            <h3> Gravity</h3>
-            <p>By Lecrae ft Justus</p>
-
+          <img src="img/Rectangle 33.png" />
+          <h3>Gravity</h3>
+          <p>By Lecrae ft Justus</p>
         </div>
         <div>
-            <img src="img/Rectangle 33 (1).png">
-            <h3> Gravity</h3>
-            <p>By Lecrae ft Justus</p>
+          <img src="img/Rectangle 33 (1).png" />
+          <h3>Gravity</h3>
+          <p>By Lecrae ft Justus</p>
         </div>
 
         <div>
-            <img src="img/Rectangle 34.png">
-            <h3> Drowned</h3>
-            <p>By Josh Jakes</p>
+          <img src="img/Rectangle 34.png" />
+          <h3>Drowned</h3>
+          <p>By Josh Jakes</p>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="Blog-posts">
-    <h2>Blog Posts</h2>
-    <p>Stay updated with our Latest news</p>
-    <div class="posts">
-<div class="redefing">
-    <p>Redefing Music in Trying Times...</p>
-    <p>27 June 2020</p>
-</div>
-<div class="music">
-    <p>Music For Healing</p>
-    <p>21 June 2020</p>
-</div>
-<div class="taking">
-    <p>Taking a Break From Music?</p>
-    <p>15 June 2020</p>
-</div>
+    <section id="Blog-posts">
+      <h2>Blog Posts</h2>
+      <p>Stay updated with our Latest news</p>
+      <div class="posts">
+        <div class="redefing">
+          <p>Redefing Music in Trying Times...</p>
+          <p>27 June 2020</p>
+        </div>
+        <div class="music">
+          <p>Music For Healing</p>
+          <p>21 June 2020</p>
+        </div>
+        <div class="taking">
+          <p>Taking a Break From Music?</p>
+          <p>15 June 2020</p>
+        </div>
+      </div>
+    </section>
 
-    </div>
-</section>
-
-<section id="notification">
-    <div class="notification">
+    <section id="notification">
+      <div class="notification">
         <h3>Do you Want to Get Notified on Our Exclusive Offers?</h3>
-        <p>Please suscribe to our newsletter to get  notified on our  discounted services</p>
-            <p>and music events that will be going on around you</p>
+        <p class="notification-text">
+          Please suscribe to our newsletter to get notified on our discounted
+          services and music events that will be going on around you
+        </p>
 
-            <input type="email" placeholder="Enter Your Email Address">
-           <br> <button id="notification-submit">Submit</button>
-    </div>
-</section>
+        <input type="email" placeholder="Enter Your Email Address" />
+        <br />
+        <button id="notification-submit">Submit</button>
+      </div>
+    </section>
 
-<section id="contact">
-    <div class="contact">
-    <img src="img/Hello.png" alt="">
-    <ul class="contact-area">
-        <li>HOME</li>
-        <li>TOUR</li>
-        <li>COOKIES POLICY</li>
-        <li>LEGAL TERMS</li>
-    </ul>
-</div>
-    <H3>THE MUSIC SITE YOU LOVE.....</H3>
-</section>
-</body>
+    <section id="contact">
+      <div class="contact">
+        <h1 class="logo contact-logo">MUSIC-GO</h1>
+        <ul class="contact-area">
+          <li>HOME</li>
+          <li>TOUR</li>
+          <li>COOKIES POLICY</li>
+          <li>LEGAL TERMS</li>
+        </ul>
+      </div>
+      <h3>THE MUSIC SITE YOU LOVE.....</h3>
+    </section>
+    <script src="main.js"></script>
+  </body>
 </html>
